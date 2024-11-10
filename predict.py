@@ -5,7 +5,7 @@ from typing import Union
 
 import torch
 
-from net import NerBaseBert
+from task.task_medical.net import NerBaseBert
 
 
 class Predictor:
